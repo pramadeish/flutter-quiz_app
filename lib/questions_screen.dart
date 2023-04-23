@@ -43,8 +43,8 @@ class _QuestionsScreenState extends State<QuestionsScreen> {
           children: [
             Text(
               currentQuestion.text,
-              style: TextStyle(
-                color: const Color.fromARGB(255, 201, 153, 251),
+              style: const TextStyle(
+                color: Color.fromARGB(255, 201, 153, 251),
                 fontSize: 24,
                 fontWeight: FontWeight.bold,
               ),
